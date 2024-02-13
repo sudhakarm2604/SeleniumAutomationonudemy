@@ -24,7 +24,7 @@ public class Locators {
         driver.findElement(By.xpath("//input[@type='text'][2]")).sendKeys("abc@yopmail.com");
         driver.findElement(By.cssSelector("input[placeholder='Email']")).clear();
         driver.findElement(By.xpath("//input[@type='text'][2]")).sendKeys("abc123@gmail.com");
-        
+        driver.findElement()
         
         	
         
