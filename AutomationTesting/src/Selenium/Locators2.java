@@ -16,6 +16,8 @@ public class Locators2 {
 		String name = "Sudhakar";
 		String password = "rahulshettyacademy";
 		String website = "https://rahulshettyacademy.com/locatorspractice/";
+		//String username = "inputUsername";
+		//String password2 = "inputPassword";
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(website);
 		driver.manage().window().maximize();
@@ -28,8 +30,9 @@ public class Locators2 {
 		System.out.println(driver.findElement(By.xpath("//p")).getText());
 		Assert.assertEquals(driver.findElement(By.xpath("//p")).getText(),"You are successfully logged in.");
 		Assert.assertEquals(driver.findElement(By.cssSelector("div[class='login-container'] h2")).getText(),"Hello "+name+",");
-		
-
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//*[text()='Log Out']")).click();
+		driver.close();
 	}
 
 }
