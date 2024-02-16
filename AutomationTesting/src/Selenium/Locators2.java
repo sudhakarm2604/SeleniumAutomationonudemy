@@ -34,5 +34,4 @@ public class Locators2 {
 		driver.findElement(By.xpath("//*[text()='Log Out']")).click();
 		driver.close();
 	}
-
 }
