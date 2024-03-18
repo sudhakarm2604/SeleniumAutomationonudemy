@@ -11,7 +11,7 @@ public class Locators2 {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Automation Testing\\Webdrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Automation Testing\\Browser Webdrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		String name = "Sudhakar";
 		String password = "rahulshettyacademy";
