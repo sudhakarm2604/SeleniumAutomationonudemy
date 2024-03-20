@@ -19,14 +19,11 @@ public class actionsDemo {
         a.moveToElement(driver.findElement(By.xpath("(//a[@class='_1TOQfO'])[1]"))).build().perform();
      	
        a.moveToElement(driver.findElement(By.xpath("//input[@type='text']"))).click().keyDown(Keys.SHIFT).sendKeys("samsung").build().perform();
-     	
-		
-		
-	
-		
-		
-		
-		
+       
+       
+       
+       
+       
 	}
 
 }
